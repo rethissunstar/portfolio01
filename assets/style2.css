@@ -1,0 +1,36 @@
+li{
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    display: inline-flex;
+    margin-top: 75px;
+    margin-inline-end: 20px;
+    
+}
+
+header{
+    background-color: darkgreen;
+    color: orange;
+    display: inline-flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: -1;
+    padding: 10px;
+    position: fixed;
+    border-color: gold;
+    border: 20px;
+}
+
+#nameplate{
+    width: 25%;
+    margin-inline-start: 20px;
+    margin-top: 30px;
+    font-size: 20pt;
+    border-color: gold;
+    border: 10px;
+    
+}
+
