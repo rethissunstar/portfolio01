@@ -54,6 +54,7 @@ header {
 .lefthead{
     display: flex;
     margin-left: auto;
+    flex-wrap: wrap;
     justify-content: start;
     font-size: 24pt;
     font-weight: bold;
@@ -65,6 +66,7 @@ header {
 .righthead{
     display:flex;
     justify-content: end;
+    flex-wrap: wrap;
     margin-right: auto;
     font-size: 24pt;
     font-weight: bold;
