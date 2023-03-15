@@ -4,21 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style2.css">
+    <link rel="stylesheet" href="./assets/style3.css">
     <title>The Portfolio of Rethis Sunstar</title>
 </head>
 <body>
     <header>
-        <section id="nameplate">
-            <h1>The Portfolio of Rethis Sunstar</h1>
-        </section>
-        <section>
-            <img src="./assets/images/rethisfloating.png" height="250px" alt="A wizard clad in green meditates to regain his mana">
-        </section>
-       <ul>
-            <li>My Projects</li>
-            <li>Contact Me</li>
-        </ul>
+        <!-- this is the third iteration of this to get the header using the flexbox correctly. -->
+            <section class="flexbox-header">
+                <section class="backdrophead">
+                    <!-- <img src="./assets/images/rethis ightining bolt.png" height="379px" alt="the background is a wizard unleashing lightning"> -->
+                </section>
+                
+                <div class="flexbox-item nameplate"><p><h1>The Portfolio of Rethis Sunstar</h1></p>
+
+                </div>
+                <div class="flexbox-item picture"><p><img src="./assets/images/rethisfloating.png" height="250px" alt="A wizard clad in green meditates to regain his mana"></p>
+
+                </div>
+                <div class="flexbox-item list">
+                    <p>
+                        <ul>
+                            <section id="myprojects"><!-- these were unnecessary -->
+                                <li>My Projects</li>
+                            </section>
+                            <section id="contactme"> <!-- these were unnecessary -->
+                                <li>Contact Me</li>
+                            </section>
+                            
+                        </ul>
+                    </p>
+
+                </div>
+
+               
+
+
+            </section>
+        
     </header>
 </body>
 </html>
