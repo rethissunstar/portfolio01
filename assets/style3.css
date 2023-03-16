@@ -29,6 +29,9 @@ img{
     flex-wrap: wrap;
     background-image: url(./images/rethis\ ightining\ bolt.png);
     background-size: cover;
+    border-style: groove;
+   border-color: gold;
+   border-radius: 5pt;
     /* justify-content: center;
     align-content: center; */
 }
@@ -57,7 +60,7 @@ img{
     align-items: center;
     justify-content: flex-start;
     padding: 30px;
-    font-size: 30pt;
+    font-size: 25pt;
     /* width: 20%;
     position:relative; */ 
     
@@ -83,7 +86,7 @@ img{
 ul{
     list-style-type: none;
     font-size: 40pt;
-    padding-right: 30px;
+    
     display: flex;
     
     align-items: center;
@@ -95,65 +98,172 @@ ul{
 li{
     padding: 30px;
 }
-
 .projectcards{
-     background-color: green;
-    display: flex;
-    /* justify-content:center; */
-   
-    flex-direction: row;
-    
-
+    /* background-color: green;
+   display: flex; */
+   /* justify-content:center; */
+   /* flex-wrap: wrap;
+   flex-direction: row;
+   padding: 30px;
+   justify-content: space-between;
+   min-width: 50%; */
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: row;
+  
+                                 
 }
+
 
 .firstproject{
-    width: 50%;
-       display: flex;
-       justify-items: center;
-       justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 350px;
-    background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
-    background-size: cover;
+   /* width: 50%;
+      display: flex;
+      justify-items: center;
+      justify-content: center;
+   align-items: center;
+   flex-wrap: wrap; */
+   padding: 30px;
    
-    
+   /* background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
+   background-size: cover; */
+  display: flex;
+  flex-wrap: wrap;
+ 
 }
 
-.otherproject{
-    display: flex;
-        flex-wrap: wrap;
-    
-    width: 50%;
-    flex-direction: column;
-   
-    margin: 0;
 
+   
+
+
+.otherproject{
+   /* display: flex;
+       flex-wrap: wrap;
+   
+   width: 50%;
+   flex-direction: column;
+   
+   margin: 0; */
+   margin-top: 10px;
+   
 }
 
 .project2{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    height: 50%;
-    width: 100%;
+   /* display: flex;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   justify-items: center;
+   height: 50%;
+   width: 100%;
 color: white;
+flex-wrap: wrap; */
+/* background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
+background-size: cover; */
+/* border-bottom: 5pt;
+border-style: groove;
+border-color: gold; */
+display: flex;
+flex-wrap: wrap;
 
-background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
-background-size: cover;
+
 }
 
 .project3{
-    display: flex;
-   color: white;
+   /* display: flex;
+  color: white;
 align-items: center;
 align-content: center;
 justify-content: center;
-justify-items: center;
-background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
-background-size: cover;
-height: 50%;
+justify-items: center; */
+/* background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
+background-size: cover; */
+/* height: 50%;
 width: 100%;
+flex-wrap: wrap; */
+display: flex;
+flex-wrap: wrap;
+
+}
+/*tablet size*/
+@media screen and (max-width: 1600px) {
+    body{
+        background-color: cornflowerblue;
+    }
+    .firstproject{
+        width: 655px;
+    }
+}
+/*tablet size*/
+@media screen and (max-width: 1200px) {
+    
+    body{
+        background-color: red;
+    }
+    .projectcards{
+        display: flex;
+        justify-content:center;
+        justify-items: center;
+        align-content:center;
+        flex-direction: column;
+    }
+    .otherproject{
+        padding: 20px;
+    }
+}
+/*large smartphone*/
+@media screen and (max-width: 900px) {
+    body{
+        background-color: orange;
+    }
+    
+}
+/*small cell phone*/
+@media screen and (max-width: 700px) {
+  
+   
+
+    body{
+        background-color: green;
+    }
+    .projectcards{
+        object-fit: scale-down;
+        
+    }
+}
+
+.aboutme{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 14pt;
+    color: gold;
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+.contact{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 14pt;
+    color: gold;
+    background-color: darkgreen;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+footer{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 14pt;
+    color: black;
+    background-color: darkgreen;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
 }
