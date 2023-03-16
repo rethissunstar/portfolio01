@@ -57,6 +57,7 @@ img{
     align-items: center;
     justify-content: flex-start;
     padding: 30px;
+    font-size: 30pt;
     /* width: 20%;
     position:relative; */ 
     
@@ -93,4 +94,66 @@ ul{
 }
 li{
     padding: 30px;
+}
+
+.projectcards{
+     background-color: green;
+    display: flex;
+    /* justify-content:center; */
+   
+    flex-direction: row;
+    
+
+}
+
+.firstproject{
+    width: 50%;
+       display: flex;
+       justify-items: center;
+       justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 350px;
+    background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
+    background-size: cover;
+   
+    
+}
+
+.otherproject{
+    display: flex;
+        flex-wrap: wrap;
+    
+    width: 50%;
+    flex-direction: column;
+   
+    margin: 0;
+
+}
+
+.project2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    height: 50%;
+    width: 100%;
+color: white;
+
+background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
+background-size: cover;
+}
+
+.project3{
+    display: flex;
+   color: white;
+align-items: center;
+align-content: center;
+justify-content: center;
+justify-items: center;
+background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
+background-size: cover;
+height: 50%;
+width: 100%;
 }
