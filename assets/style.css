@@ -3,72 +3,17 @@
     padding: 5px;
 
 
-}
+} 
 
-nav{
-    display: inline;
-}
-
-li {
-   
-    
-    
-    list-style-type: none; 
-    
-    
-    
- /*   flex-direction: column;
+p{
     display: flex;
-    list-style-type: none;
-    justify-items: flex-end; */
-   }
-header {
-    
     position: relative;
-    top: 0px;
-    color: orange;
-    background-color: green;
-    
-   /* text-align: right;
-    height: 300px;
-    width: 95%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14pt;
-    font-weight: bold;
-    border-bottom: 5px;
-    border-color: orange; */
-    
-    
+    background: cornflowerblue url(./images/rethis\ ightining\ bolt.png);
 
 }
 
-.container {
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-
+ul{
+    list-style-type: none;
 
 }
 
-.lefthead{
-    display: flex;
-    margin-left: auto;
-    flex-wrap: wrap;
-    justify-content: start;
-    font-size: 24pt;
-    font-weight: bold;
-    color: beige;
-    
-  
-}
-
-.righthead{
-    display:flex;
-    justify-content: end;
-    flex-wrap: wrap;
-    margin-right: auto;
-    font-size: 24pt;
-    font-weight: bold;
-
-}

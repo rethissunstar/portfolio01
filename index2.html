@@ -4,21 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style2.css">
+    <link rel="stylesheet" href="./assets/style3.css">
     <title>The Portfolio of Rethis Sunstar</title>
 </head>
 <body>
     <header>
-        <section id="nameplate">
-            <h1>The Portfolio of Rethis Sunstar</h1>
-        </section>
-        <section>
-            <img src="./assets/images/rethisfloating.png" height="250px" alt="A wizard clad in green meditates to regain his mana">
-        </section>
-       <ul>
-            <li>My Projects</li>
-            <li>Contact Me</li>
-        </ul>
+        <!-- this is the third iteration of this to get the header using the flexbox correctly. -->
+            <section class="flexbox-header">
+                <section class="backdrophead">
+                    <!-- <img src="./assets/images/rethis ightining bolt.png" height="379px" alt="the background is a wizard unleashing lightning"> -->
+                </section>
+                
+                <div class="flexbox-item nameplate"><p>
+                    <ol>
+                        <h2>The Portfolio of: </h2></p> <!-- put on separate lines but it despite using ol we picked up the code for no bullets which is good but fluke.-->
+                    <h1>Rethis Sunstar</h1>
+                    </ol>
+                    
+
+                </div>
+                <div class="flexbox-item picture"><p><img src="./assets/images/rethisfloating.png" height="250px" alt="A wizard clad in green meditates to regain his mana"></p>
+
+                </div>
+                <div class="flexbox-item list">
+                    <p>
+                        <ul>
+                            <section id="myprojects"><!-- these were unnecessary -->
+                                <li>My Projects</li>
+                            </section>
+                            <section id="contactme"> <!-- these were unnecessary -->
+                                <li>Contact Me</li>
+                            </section>
+                            
+                        </ul>
+                    </p>
+
+                </div>
+
+               
+
+
+            </section>
+        
     </header>
+
+    <section class="projectcards">
+        <section class="firstproject">
+            <h3>this is my first project</h3>
+            
+        </section>
+        <section class="otherproject">
+            <section class="project2">
+                <H4>this is my second project</H4>
+            </section>
+            <section class="project3">
+                <h4>this is my third project</h4>
+            </section>
+        </section>
+
+    </section>
 </body>
 </html>

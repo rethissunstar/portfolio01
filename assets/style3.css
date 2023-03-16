@@ -1,0 +1,159 @@
+header{
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0 auto;
+    min-height: 100vh;
+
+}
+img{
+    
+    /* height: 200px;
+    display:flex;
+    justify-items: center; */
+}
+
+ .flexbox-header {  /*thisis the flex container */
+    background-color: green;
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(./images/rethis\ ightining\ bolt.png);
+    background-size: cover;
+    /* justify-content: center;
+    align-content: center; */
+}
+
+.backdrophead{
+    /* z-index: -1; */
+    
+    /* background: url(./images/rethis\ ightining\ bolt.png); */
+    width: 100%;
+}
+.flexbox-item{
+    /* width: 33%; */
+    /* background-color: rgba(255, 255, 255, 0.205);     */
+    fill-opacity: 25%;
+    color: gold;
+    padding: 30px;
+    /* border-radius: 20px solid gold;
+    border-style: groove; */
+    
+    
+}
+
+.nameplate{
+    min-height: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+    font-size: 30pt;
+    /* width: 20%;
+    position:relative; */ 
+    
+}
+.picture{
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+    /* justify-items: center;
+    height: 400;
+    width: 35%; */
+}
+.list{
+    min-height: 345px;
+    /* width: 45%;
+    font-size: 16pt; */
+    display: flex;
+    align-items: center;
+    
+}
+ul{
+    list-style-type: none;
+    font-size: 40pt;
+    padding-right: 30px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+li{
+    padding: 30px;
+}
+
+.projectcards{
+     background-color: green;
+    display: flex;
+    /* justify-content:center; */
+   
+    flex-direction: row;
+    
+
+}
+
+.firstproject{
+    width: 50%;
+       display: flex;
+       justify-items: center;
+       justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 350px;
+    background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
+    background-size: cover;
+   
+    
+}
+
+.otherproject{
+    display: flex;
+        flex-wrap: wrap;
+    
+    width: 50%;
+    flex-direction: column;
+   
+    margin: 0;
+
+}
+
+.project2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    height: 50%;
+    width: 100%;
+color: white;
+
+background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
+background-size: cover;
+}
+
+.project3{
+    display: flex;
+   color: white;
+align-items: center;
+align-content: center;
+justify-content: center;
+justify-items: center;
+background-image: url(./images/rethis\ ready\ for\ combat\ evil-Recovered2.png);
+background-size: cover;
+height: 50%;
+width: 100%;
+}
