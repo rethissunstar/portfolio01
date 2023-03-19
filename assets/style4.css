@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    flex: 1 0 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    color: gold;
+    background-image: url(./images/rethis\ ightining\ bolt.png);
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 300px;
+}
+
+li{
+    /* list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap; */
+
+}
+
+/* img{
+    width: 50%;
+} */
+.bodycontainer{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.project{
+    display: flex;
+    background-color: red;
+   
+    align-content: space-around;
+    padding: 5px;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+
+}
+
+.card1{
+    flex: 1 2 50%;
+    
+}
+
+.card3{
+    flex-direction: column;
+    flex: 1 1 50%;
+}

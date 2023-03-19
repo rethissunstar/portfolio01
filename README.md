@@ -22,5 +22,9 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Contributions and credit
-Normalize CSS file for normalize reset - shared public https://github.com/necolas/normalize.css/
-
+-Normalize CSS file for normalize reset - shared public https://github.com/necolas/normalize.css/
+-flexbox clarity from
+https://www.youtube.com/watch?v=km1AL9-Z4CM
+-backgroung images learning from
+https://youtu.be/zHZRFwWQt2w
+-flexbox further clarified giving an understanding of the 3 parameters inherent in flex from my Tutor David Itua. -awesome dude.

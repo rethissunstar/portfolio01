@@ -1,19 +1,95 @@
-* {
-    margin: 5px;
-    padding: 5px;
-
-
-} 
-
-p{
+header{
     display: flex;
-    position: relative;
-    background: cornflowerblue url(./images/rethis\ ightining\ bolt.png);
-
+    flex: 1 0 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    color: gold;
+    background-image: url(./images/rethis\ ightining\ bolt.png);
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 300px;
 }
 
-ul{
+li{
     list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
+img{
+   
+}
+
+.bodycontainer{
+    display: flex;
+    
+    /* width: 85%; */
+    
+    
+}
+
+.bodycontainer :nth-child(n+1){
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100%; */
+  
+    flex: 1 1 50%;
+    margin: 10px;
+    
+}
+
+.bodycontainer :nth-child(n+2){
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100%; */
+    
+    
+    
+}
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card1{
+    /*display: flex;
+     justify-content: center;
+    align-items: stretch; */
+    background: red;
+    
+    
+
+}
+
+.card1 :nth-child(n+1){
+    flex: 1 0 100%;
+
+}
+
+.card3{
+    display: flex;
+    flex-wrap: wrap;
+    background: green;
+
+}
+
+.card3 :nth-child(n+1){
+    /* flex: 1 0 100%; */
+    
+
+}
+
+/* .card1 :nth-child(n+2){
+    background-color: red;
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100%; 
+    flex: 1 0 100%;
+} */
