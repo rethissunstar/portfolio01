@@ -10,46 +10,54 @@ header{
     align-items: center;
     flex-direction: row;
     height: 300px;
+    flex-wrap: wrap;
 }
 
 li{
-    /* list-style-type: none;
+    list-style-type: none;
     padding: 10px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    flex-wrap: wrap; */
-
-}
-
-/* img{
-    width: 50%;
-} */
-.bodycontainer{
-    display: flex;
-    width: 100%;
     flex-wrap: wrap;
-    
+
 }
 
-.project{
+.container{
+    
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    background-color: gold;
+    margin: 10px;
     display: flex;
-    background-color: red;
-   
-    align-content: space-around;
-    padding: 5px;
     flex-direction: row;
-    
     flex-wrap: wrap;
-
+   justify-items: stretch;
 }
 
-.card1{
-    flex: 1 2 50%;
+.container :nth-child(n+1){
+    display: flex;
+    
+    background-color: red;
+    margin: 10px;
+    justify-content: stretch;
+    align-items: stretch;
+   
+   
+    
+    
+}
+.container :nth-child(n+2){
+    flex-direction: column;
+    background-color: orange;
+    margin: 10px;
+    
+    justify-content: space-evenly;
+    align-items: center;
     
 }
 
-.card3{
-    flex-direction: column;
-    flex: 1 1 50%;
+.panel1{
+    
 }
