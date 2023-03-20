@@ -1,8 +1,7 @@
 # 01 My Portfolio
 
 ## 02 Description
-The goal was to make this page more accessible and meet the AODA standards specified at https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html#atdef
-This was to complete an update that includes alts for images, verify that all links were working and use semantic HTML instead of non-semantic.
+This is the creation of a portfolio that will demonstrate the work.  I used my virtual self instead as this is currently a project and not the real results I want for me. yet. 
 
 ## 03 LInks
 you can find the Repository at [Link Text](https://github.com/rethissunstar/portfolio01)
@@ -21,8 +20,8 @@ you can find the Repository at [Link Text](https://github.com/rethissunstar/port
 [def]: rethissunstar@gmail.com
 
 ## Images of the website working
-.\portfolio01\assets\images\screen001web.png
-.\portfolio01\assets\images\screen002mobile.png
+![screenshot of the the site working on web browser](\assets\images\screen001web.png)
+![screenshot of the the site working on web browser](\assets\images\screen002mobile.png)
 
 ## Contributions and credit
 -Normalize CSS file for normalize reset - shared public https://github.com/necolas/normalize.css/
