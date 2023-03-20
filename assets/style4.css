@@ -30,7 +30,8 @@ h2{
 }
 
 .container{
-    
+    min-height: 600px;
+
     flex-direction: row;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16pt;
@@ -91,12 +92,14 @@ h2{
     width: 100%;
     background-color: aquamarine;
     color: orange;
-    height: 200px;
+    height: 400px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30pt;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 700px) {
@@ -108,4 +111,16 @@ h2{
         display: flex;
         flex: 1 0 50%;
     }
+}
+
+.panel1:hover {
+    opacity: 50%;
+}
+
+.secondpanel:hover {
+    opacity: 50%;
+}
+
+.thirdpanel:hover {
+    opacity: 50%;
 }
