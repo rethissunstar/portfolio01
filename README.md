@@ -1,25 +1,28 @@
-# portfolio01
-This is a portfolio of a professional web app designer.
+# 01 My Portfolio
 
-## user story
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+## 02 Description
+The goal was to make this page more accessible and meet the AODA standards specified at https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html#atdef
+This was to complete an update that includes alts for images, verify that all links were working and use semantic HTML instead of non-semantic.
 
-## Acceptance Criteria
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+## 03 LInks
+you can find the Repository at [Link Text](https://github.com/rethissunstar/portfolio01)
+
+## 04 Built With
+-HTML through VS Code
+-CSS Stylesheet
+-images are within the repository
+-code created from scratch
+
+## 05 Author
+**Christopher Rodrigues**
+[Profile](https://github.com/rethissunstar)
+[email][def]
+
+[def]: rethissunstar@gmail.com
+
+## Images of the website working
+.\portfolio01\assets\images\screen001web.png
+.\portfolio01\assets\images\screen002mobile.png
 
 ## Contributions and credit
 -Normalize CSS file for normalize reset - shared public https://github.com/necolas/normalize.css/
@@ -28,3 +31,4 @@ https://www.youtube.com/watch?v=km1AL9-Z4CM
 -backgroung images learning from
 https://youtu.be/zHZRFwWQt2w
 -flexbox further clarified giving an understanding of the 3 parameters inherent in flex from my Tutor David Itua. -awesome dude.
+-All images are copyright to me
