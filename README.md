@@ -20,8 +20,8 @@ you can find the Repository at [Link Text](https://github.com/rethissunstar/port
 [def]: rethissunstar@gmail.com
 
 ## Images of the website working
-![screenshot of the the site working on web browser](\assets\images\screen001web.png)
-![screenshot of the the site working on web browser](\assets\images\screen002mobile.png)
+![screenshot of the the site working on web browser](https://github.com/rethissunstar/portfolio01/blob/main/assets/images/screen001web.png)
+![screenshot of the the site working on web browser](https://github.com/rethissunstar/portfolio01/blob/main/assets/images/screen002mobile.png)
 
 ## Contributions and credit
 -Normalize CSS file for normalize reset - shared public https://github.com/necolas/normalize.css/
