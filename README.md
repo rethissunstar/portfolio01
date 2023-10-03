@@ -5,6 +5,7 @@ This is the creation of a portfolio that will demonstrate the work.  I used my v
 
 ## 03 LInks
 you can find the Repository at [Link Text](https://github.com/rethissunstar/portfolio01)
+the site is live at [portfolio](https://rethissunstar.github.io/portfolio01/)
 
 ## 04 Built With
 -HTML through VS Code
